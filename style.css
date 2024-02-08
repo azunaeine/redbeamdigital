@@ -207,6 +207,10 @@ body {
   gap: 0.9rem;
 }
 
+.green {
+  width: 20em !important;
+}
+
 .moving-images {
   animation: moveRight 14s linear infinite;
   position: relative;
@@ -317,7 +321,7 @@ body {
   }
 
   .green {
-    width: 17em !important;
+    width: 22em !important;
   }
 
   .list {
