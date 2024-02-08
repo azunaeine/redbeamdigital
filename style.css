@@ -30,7 +30,7 @@ body {
 }
 
 .list {
-  width: 6em !important;
+  width: 6.5em !important;
 }
 
 .text {
@@ -314,6 +314,10 @@ body {
 
   .text {
     gap: 1.5rem;
+  }
+
+  .green {
+    width: 17em !important;
   }
 
   .list {
