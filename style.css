@@ -127,8 +127,8 @@ body {
   display: flex;
   border-radius: 6px;
   box-shadow: 0 3px 17px 0 rgba(232, 21, 21, 0.6);
-  width: 252px;
-  height: 56px;
+  width: 230px;
+  height: 45px;
   background-color: #e81515;
   color: #fff;
   align-items: center;
@@ -142,6 +142,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 1rem;
+  gap: 12px;
 }
 
 .green {
@@ -316,7 +317,7 @@ body {
   }
 
   .redbutton {
-    width: 179px;
+    width: 235px;
   }
 
   .category {
@@ -333,14 +334,6 @@ body {
 
   .small-c {
     line-height: 18px;
-  }
-
-  .medium-c {
-    line-height: 14px;
-  }
-
-  .table {
-    display: none;
   }
 
   .tablefortabletandcomputer {
@@ -394,16 +387,16 @@ body {
   }
 
   .primarybutton {
+    width: 230px;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(232, 21, 21);
+    box-shadow: rgba(232, 21, 21, 0.25) 0px 4px 4px 0px;
+    text-decoration: none;
     display: flex;
-    border-radius: 6px;
-    box-shadow: 0 3px 17px 0 rgba(232, 21, 21, 0.6);
-    width: 252px;
-    height: 56px;
-    background-color: #e81515;
-    color: #fff;
     align-items: center;
     justify-content: center;
-    transition: all 0.3s ease-in-out;
+    border-radius: 6px;
   }
 
   .primarybutton:hover {
