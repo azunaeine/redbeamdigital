@@ -394,8 +394,8 @@ body {
   }
 
   .primarybutton {
-    width: 50em;
-    height: 4em;
+    width: 50rem;
+    height: 4rem;
     color: rgb(255, 255, 255);
     background-color: rgb(232, 21, 21);
     box-shadow: rgba(232, 21, 21, 0.25) 0px 4px 4px 0px;
@@ -404,6 +404,7 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 6px;
+    font-size: 1.2rem;
   }
 
   .primarybutton:hover {
@@ -461,7 +462,17 @@ body {
   }
 
   .redbutton {
-    width: 217px;
+    width: 50rem;
+    height: 4rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(232, 21, 21);
+    box-shadow: rgba(232, 21, 21, 0.25) 0px 4px 4px 0px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    font-size: 1.2rem;
   }
 
   .un,
