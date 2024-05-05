@@ -34,7 +34,6 @@ ol {
   justify-content: center;
   gap: 1em;
   margin-top: 2rem;
-  padding-inline-start: 0; /* Add this line to remove padding */
 }
 
 .ol1 {
@@ -46,6 +45,7 @@ ol {
   margin-top: 2rem;
   padding-inline-start: 0; /* Add this line to remove padding */
   text-align: center;
+  list-style-type: decimal;
 }
 
 .wistia_embed {
@@ -129,10 +129,11 @@ ol {
   justify-content: center;
   gap: 1em;
   margin-top: 2rem;
+  text-align: center;
 }
 
 li {
-  font-size: 1.58rem;
+  font-size: 1.18rem;
 }
 
 .titles {
@@ -174,6 +175,7 @@ li {
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease-in-out;
+  text-decoration: none;
 }
 
 .box1 {
