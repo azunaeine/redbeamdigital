@@ -56,9 +56,6 @@ ol {
   list-style-type: decimal;
 }
 
-.wistia_embed {
-  display: none;
-}
 .text {
   display: flex;
   flex-direction: column;
@@ -520,12 +517,6 @@ li {
     align-items: center;
     justify-content: center;
     gap: 2px;
-  }
-
-  @media screen and (min-width: 1440px) {
-    .wistia_embed {
-      display: block;
-    }
   }
 
   .pbutton {
