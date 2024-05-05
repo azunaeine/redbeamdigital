@@ -26,6 +26,9 @@ body {
 .list {
   width: 6.5em !important;
 }
+.primarybutton {
+  margin: auto;
+}
 
 ol {
   display: flex;
@@ -34,6 +37,11 @@ ol {
   justify-content: center;
   gap: 1em;
   margin-top: 2rem;
+}
+
+.category {
+  text-align: center;
+  font-size: 0.9rem;
 }
 
 .ol1 {
@@ -81,7 +89,7 @@ ol {
   text-align: center;
 }
 .infox {
-  font-size: 0.5rem;
+  font-size: 0.9rem;
   text-align: center;
 }
 
@@ -130,6 +138,7 @@ ol {
   gap: 1em;
   margin-top: 2rem;
   text-align: center;
+  padding-right: 2em;
 }
 
 li {
@@ -213,7 +222,6 @@ li {
 
 .category {
   text-align: center;
-  font-size: 1.38rem;
 }
 
 .redbutton {
@@ -233,11 +241,11 @@ li {
   color: #000;
   text-align: center;
   font-family: Poppins;
-  font-size: 9px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 400;
   line-height: 2.5em;
-  padding-right: 1em;
+  padding-right: 2em;
   padding-left: 2em;
 }
 
