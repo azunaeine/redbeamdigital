@@ -234,6 +234,17 @@ li {
   border-radius: 6px;
 }
 
+.calendly-inline-widget-container {
+  width: 100%;
+  max-width: 400px; /* Adjust as needed */
+  height: auto;
+}
+
+.calendly-inline-widget {
+  width: 100%;
+  height: 100%;
+}
+
 .book-subtext {
   color: #000;
   text-align: center;
@@ -297,10 +308,6 @@ li {
 
   .titles {
     font-size: 2.0625em;
-  }
-
-  .list {
-    width: 9em !important;
   }
 
   .title {
@@ -509,6 +516,13 @@ li {
   }
   .four-images {
     height: 620px;
+  }
+
+  .lead-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .lead-cat {
