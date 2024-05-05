@@ -207,6 +207,10 @@ li {
   margin-top: 1rem;
 }
 
+.wistia_embed {
+  display: none;
+}
+
 .overflow-wrapper {
   overflow: hidden;
   width: 100%;
@@ -318,6 +322,10 @@ li {
     width: 10em;
   }
 
+  .wistia_embed {
+    display: none;
+  }
+
   .title-p {
     font-size: 0.6875em;
   }
@@ -380,7 +388,9 @@ li {
     margin: 40px auto;
     grid-gap: 2.1rem;
   }
-
+  .wistia_embed {
+    display: block;
+  }
   .titles {
     display: flex;
     align-items: center;
