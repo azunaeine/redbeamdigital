@@ -114,6 +114,7 @@ ol {
   align-items: center;
   justify-content: center;
   margin-top: 1rem;
+  padding: 0 4vw;
 }
 
 .mainbutton {
@@ -208,7 +209,7 @@ li {
 }
 
 .wistia_embed {
-  display: none;
+  display: block;
 }
 
 .overflow-wrapper {
@@ -269,7 +270,9 @@ li {
   gap: 4px;
   margin-top: 1em;
 }
-
+.wistia_responsive_padding {
+  width: 100%;
+}
 .calendly-inline-widget {
   margin-top: 1.5em;
 }
@@ -320,10 +323,6 @@ li {
 
   .trackernone {
     width: 10em;
-  }
-
-  .wistia_embed {
-    display: none;
   }
 
   .title-p {
